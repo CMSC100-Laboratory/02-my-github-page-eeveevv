@@ -9,3 +9,7 @@ Click save and then wait for a few minutes until the site is reflected on the Gi
 ## Key takeaways from this exercise
 I realized that GitHub can really be a powerful tool for collaboration when utilized properly. But the commands can be overwhelming too.  
 The same is true with CSS. It can be fun, but there are lots of elements you have to familiarize yourself with.
+
+
+## References
+https://docs.google.com/document/d/12kNdT71RIUGJBCJ5_T1BA2TOKsrwnLX6vOQt3xPoxVQ/edit?usp=sharing
