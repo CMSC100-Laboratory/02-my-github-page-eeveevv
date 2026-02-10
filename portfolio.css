@@ -182,3 +182,40 @@
         transform: translateX(-50%); 
     }
 }
+
+
+/*-------------------SOCIALS/FOOTER SECTION------------*/
+
+.socials {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #df6592;
+    padding: 0 30px; 
+}
+
+.socials #socials-logo {
+    width: 180px;
+}
+
+.socials-container{
+    display: flex;
+    gap: 20px;
+    margin-left: 400px; 
+    align-items: center;
+}
+
+.socials-container img{
+    height: 50px; 
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.socials-container img:hover {
+    transform: scale(1.1);
+}
