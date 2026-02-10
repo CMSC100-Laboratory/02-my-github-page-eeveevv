@@ -148,3 +148,37 @@
     height: 90%;
     object-fit: cover;
 }
+
+
+/* ------------- SKILLS SECTION -------------------*/
+.skills{
+    position: relative;
+    background-color: #ffc736;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.languages-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: fit-content;
+    animation: scroll 30s linear infinite;
+}
+
+.languages-container img{
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% { 
+        transform: translateX(0); 
+    }
+    100% { 
+        transform: translateX(-50%); 
+    }
+}
