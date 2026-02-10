@@ -99,3 +99,52 @@
     font-size: 1.1em;
     color: #333;
 }
+
+/* ------------- PROJECTS SECTION -------------------*/
+
+.projects {
+    position: relative;
+    margin-top: 0px; 
+    background-color: #ffc736; 
+    padding: 30px 30px;
+}
+
+.projects-icon {
+    position: absolute;
+    top: 50px;   
+    left: 30px;
+    width: 30%;
+    z-index: 4;
+}
+
+.projects-background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.project-box {
+    background-color: #3a8c3a; 
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.project-box img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
